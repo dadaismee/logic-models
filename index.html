@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Логические модели</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/llfp-logo.png">
+  <script src="http://www.jsdelivr.com/#!particles.js"></script>
+  <script src="/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="nav_container">
+      <div class="nav_logo-wrapper">
+        <a href="https://llfp.hse.ru/" target="blank">
+          <img class="nav_logo" src="/assets/llfp-logo.png">
+        </a>
+      </div>
+      <ul class="nav_menu">
+        <a href="https://logic-playgrounds.herokuapp.com/truth-table" target="_blank">
+          <li class="nav_menu-button">Truth tables</li>
+        </a>
+        <a href="https://logic-playgrounds.herokuapp.com/phil-map" target="_blank">
+          <li class="nav_menu-button">Philosophy map</li>
+        </a>
+        <a href="https://logic-playgrounds.herokuapp.com/about" target="_blank">
+          <li class="nav_menu-button">About</li>
+        </a>
+      </ul>
+    </div>
+  </header>
+  <div class="main">
+    <h1 class="main_title">Logical models</h1>
+    <ol>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('philosophers-web')" class="main_article-title">Philosopher's Web</p>
+          <div class="main_article-block" id="philosophers-web">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Интерактивная карта философского знания, которая построена на основе Википедии. В карте есть множество метрик и параметров, благодаря которым можно по-разному визуализировать связи. Узлы в карте различаются по цвету (в зависимости от исторического периода) и размеру (в зависимости от количества связей узла с другими), данные параметры можно изменять. Кроме того, на сайте можно создавать собственные интерактивные карты, пройдя предварительную бесплатную регистрацию. Для собственного проекта доступны различные шаблоны, можно добавлять описание, тэги, импортировать информацию из других источников. 
+              </p>
+              <p class="main_article-link"><a href="https://kumu.io/GOliveira/philosophers-web#map-b9Ts7W5r" target="_blank">Ссылка</a></p>
+            </div>
+            <a href="https://kumu.io/GOliveira/philosophers-web#map-b9Ts7W5r" target="_blank">
+              <img src="/assets/philosophers-web.png" alt="Philosopher's Web" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('philosophy-of-mind')" class="main_article-title">Philosophy of Mind, Interactive Mind Map</p>
+          <div class="main_article-block" id="philosophy-of-mind">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Карта философии сознания представляет визуализацию иерархий концептов, идей и направлений в философии сознания. Карта составлена на основе статьи в Википедии, посвященной философии сознания. По карте нельзя перейти на внешние ссылки, чтобы ознакомиться с конкретной темой. 
+              </p>
+              <p class="main_article-link"><a href="http://www.gogeometry.com/brain/philosophy_of_mind_mindmap.html" target="_blank">Ссылка</a></p>
+            </div>
+            <a href="http://www.gogeometry.com/brain/philosophy_of_mind_mindmap.html" target="_blank">
+              <img src="/assets/philosophy_of_mind.png" alt="philosoph-of-mind" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('history-of-philosophy')" class="main_article-title">History of Philosophy (formalized & visualised)</p>
+          <div class="main_article-block" id="history-of-philosophy">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Интерактивный таймлайн с философами, упорядоченными по хронологии. Карта визуализирует связи между авторами и их идеями, которые представлены в виде краткого тезиса. Каждый тезис связан с тезисами других авторов: красным цветом обозначена критика, а зелёным – согласующиеся тезисы и расширяющие исходный.
+              </p>
+              <p class="main_article-link"><a href="https://www.denizcemonduygu.com/philo/browse" target="_blank">Ссылка</a></p>
+            </div>
+            <a href="https://www.denizcemonduygu.com/philo/browse" target="_blank"><img src="/assets/history-of-philosophy.png" alt="history-of-philosophy" class="main_article-img"></a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('sqema')" class="main_article-title">SQEMA</p>
+          <div class="main_article-block" id="sqema">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор, который сопоставляет модальным формулам формулы логики предикатов первого порядка; вычисляет является ли формула «салквистовой формулой» (подробнее про «салквистовые формулы» можно прочитать тут). Формулы первого порядка не всегда выводятся в сокращенном виде. 	
+              </p>
+              <p class="main_article-link"><a href="https://store.fmi.uni-sofia.bg/fmi/logic/sqema/sqema_gwt_20180317_2/K45/SQEMA.html" target="_blank">Ссылка</a></p>
+            </div>
+            <a href="https://store.fmi.uni-sofia.bg/fmi/logic/sqema/sqema_gwt_20180317_2/K45/SQEMA.html" target="_blank"><img src="/assets/sqema.png" alt="sqema" class="main_article-img"></a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('truth-table-gen')" class="main_article-title">Truth Table Generator</p>
+          <div class="main_article-block" id="truth-table-gen">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор для построения таблиц истинности. В нём есть несколько опций для вывода значений: 0/1, T/F или ⊤/⊥, и несколько вариантов для ввода будевых связок, который указаны под панелью ввода. Калькулятор может выводить либо всю таблицу, либо значение главных связок. Кроме того, калькулятор генерирует таблицу в виде текста, а также код для построения таблицы в LaTex’е. Есть возможность вводить несколько формул через запятую.
+              </p>
+              <p class="main_article-link"><a href="http://mrieppel.net/prog/truthtable.html" target="_blank">Ссылка</a></p>
+            </div>
+            <a href="http://mrieppel.net/prog/truthtable.html" target="_blank"><img src="/assets/truth-table-gen.png" alt="truth-table-gen" class="main_article-img"></a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('zhekalkin')" class="main_article-title">Построение таблицы истинности, СДНФ, СКНФ, полином Жегалкина</p>
+          <div class="main_article-block" id="zhekalkin">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор для таблиц истинности. Он может строить таблицу истинности по функции или двоичному вектору, строит СКНФ, СДНФ, полином Жегалкина (методами Паскаля, треугольника, неопределённых коэффициентов), карту Карно, минимизирует ДНФ и КНФ, ищет фиктивные переменные, определяет принадлежность функции к каждому из пяти классов Поста. На сайте есть видеоинструкция к калькулятору.
+              </p>
+              <p class="main_article-link"><a href="https://programforyou.ru/calculators/postroenie-tablitci-istinnosti-sknf-sdnf" target="_blank">Ссылка</a></p>
+            </div>
+            <a href="https://programforyou.ru/calculators/postroenie-tablitci-istinnosti-sknf-sdnf" target="_blank">
+              <img src="/assets/zhekalkin.png" alt="zhekalkin" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('truth-table')" class="main_article-title">Таблица истинности</p>
+          <div class="main_article-block" id="truth-table">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор для таблиц истинности на основе Wolfram’а. Выводит значение для каждой переменной и главного знака формулы.
+              </p>
+              <p class="main_article-link"><a href="https://allcalc.ru/node/745" target="_blank">Ссылка</a></p>
+            </div>
+            <a href="https://allcalc.ru/node/745" target="_blank">
+              <img src="/assets/truth-table.png" alt="truth-table" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('truth-table-2')" class="main_article-title">Truth Table Generator (LaTex)</p>
+          <div class="main_article-block" id="truth-table-2">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор строит таблицы истинности для каждой подформулы. Есть возможность сгенерировать таблицу для LaTex, HTML, ASCII.
+              </p>
+              <p class="main_article-link">
+                <a href="https://cs.uwaterloo.ca/~cbright/logic/truthtable.php?formula=p%26%7Ep&output=latex" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://cs.uwaterloo.ca/~cbright/logic/truthtable.php?formula=p%26%7Ep&output=latex" target="_blank">
+              <img src="/assets/truth-table-2.png" alt="truth-table-2" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('logic-calc')" class="main_article-title">
+            Logic Calculator: Truth Tables
+          </p>
+          <div class="main_article-block" id="logic-calc">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор строит таблицы истинности и выводит значение для всех связок или только значение главного знака формулы. В калькуляторе есть интерактивное дополнение: фиолетовый монстр и утка. Чтобы построить таблицу, нужно нажать на утку. Чтобы стереть один знак, нужно нажать на монстра, а чтобы стереть всю формулу – нажать на него дважды. Есть возможность вводить несколько формул через запятую.
+              </p>
+              <p class="main_article-link">
+                <a href="https://www.erpelstolz.at/gateway/TruthTable.html" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://www.erpelstolz.at/gateway/TruthTable.html" target="_blank">
+              <img src="/assets/logic-calc.png" alt="logic-calc" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('boolean-truth-table')" class="main_article-title">
+            Таблица истинности
+          </p>
+          <div class="main_article-block" id="boolean-truth-table">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор для таблиц истинности, который считает значения для главной формулы и для подформул. Есть возможность строить булевы уравнения из таблиц истинности.
+              </p>
+              <p class="main_article-link">
+                <a href="https://www.dcode.fr/boolean-truth-table" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://www.dcode.fr/boolean-truth-table" target="_blank">
+              <img src="/assets/boolean-truth-table.png" alt="boolean-truth-table" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('truth-table-tool')" class="main_article-title">
+            Truth Table Generator (one more)
+          </p>
+          <div class="main_article-block" id="truth-table-tool">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор для таблиц истинности. Выводит значения переменных и главной формулы.
+              </p>
+              <p class="main_article-link">
+                <a href="https://web.stanford.edu/class/cs103/tools/truth-table-tool/" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://web.stanford.edu/class/cs103/tools/truth-table-tool/" target="_blank">
+              <img src="/assets/truth-table-tool.png" alt="truth-table-tool" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('truth-table-app')" class="main_article-title">
+            Truth Table Generator	(mobile app)
+          </p>
+          <div class="main_article-block" id="truth-table-app">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор для таблиц истинности, который выводит значения для всех подформул и главной формулы. Доступен в App Store и Google Play.
+              </p>
+              <p class="main_article-link">
+                <a href="https://trutabgen.com/" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://trutabgen.com/" target="_blank">
+              <img src="/assets/truth-table-app.png" alt="truth-table-app" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('logic-calc-simple')" class="main_article-title">
+            Калькулятор логических выражений
+          </p>
+          <div class="main_article-block" id="logic-calc-simple">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор для упрощения логических выражений. Есть возможность вывода результата в разных форматах (ДНФ, КНФ и др.). Внизу дан справочный материал.
+              </p>
+              <p class="main_article-link">
+                <a href="https://www.dcode.fr/boolean-expressions-calculator" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://www.dcode.fr/boolean-expressions-calculator" target="_blank">
+              <img src="/assets/logic-calc-simple.png" alt="logic-calc-simple" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('prover')" class="main_article-title">
+            PHI 251 FitchFX Proof Constructor
+          </p>
+          <div class="main_article-block" id="prover">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Прувер для фитчевского натурального вывода. Генерирует код вывода для LaTex.
+              </p>
+              <p class="main_article-link">
+                <a href="https://mrieppel.github.io/FitchFX/" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://mrieppel.github.io/FitchFX/" target="_blank">
+              <img src="/assets/prover.png" alt="prover" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('deduction-prover')" class="main_article-title">
+            Natural deduction proof editor and checker
+          </p>
+          <div class="main_article-block" id="deduction-prover">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Прувер для фитчевского натурального вывода. К калькулятору дана подробная инструкция и упражнения.
+              </p>
+              <p class="main_article-link">
+                <a href="https://proofs.openlogicproject.org/" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://proofs.openlogicproject.org/" target="_blank">
+              <img src="/assets/deduction-prover.png" alt="deduction-prover" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('s4-prover')" class="main_article-title">
+            Tableaux'method for S4
+          </p>
+          <div class="main_article-block" id="s4-prover">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Прувер для модальной логики в системе S4. Расписывает по шагам доказательство от противного с указанием правил для каждого шага.
+              </p>
+              <p class="main_article-link">
+                <a href="http://teachinglogic.univ-grenoble-alpes.fr/TableauxS4/index.php" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="http://teachinglogic.univ-grenoble-alpes.fr/TableauxS4/index.php" target="_blank">
+              <img src="/assets/s4-prover.png" alt="s4-prover" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('tree-calc')" class="main_article-title">
+            Tree Proof Generator
+          </p>
+          <div class="main_article-block" id="tree-calc">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Калькулятор аналитических таблиц. Можно проверять формулы классической логики высказываний, логики предикатов, модальной логики, выводимость из посылок.
+              </p>
+              <p class="main_article-link">
+                <a href="https://www.umsu.de/trees/" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://www.umsu.de/trees/" target="_blank">
+              <img src="/assets/tree-calc.png" alt="tree-calc" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('modal-logic')" class="main_article-title">
+            Modal logic playground
+          </p>
+          <div class="main_article-block" id="modal-logic">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Прувер для модальной логики, который оценивает формулу в модели Крипке. Модель Крипке можно редактировать, добавляя оценку пропозициональных переменных и отношения достижимости на возможных мирах. Калькулятор позволяет варьировать количество пропозициональных переменных в возможных мирах от 1 до 5. Внизу страницы даны справочные материалы.
+              </p>
+              <p class="main_article-link">
+                <a href="https://rkirsling.github.io/modallogic/" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://rkirsling.github.io/modallogic/" target="_blank">
+              <img src="/assets/modal-logic.png" alt="modal-logic" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="main_article">
+          <p onclick="myFunction('elvis')" class="main_article-title">
+            ELVis (Epistemic Logic Visualizer)
+          </p>
+          <div class="main_article-block" id="elvis">
+            <div class="main_article-block-text">
+              <p class="main_article-p">
+                Самый масштабный прувер для эпистемической логики: классической эпистемической логики (EL), логики публичных объявлений (PAL) и динамической эпистемической логики (DEL). Для каждой логики приводятся справочные материалы и калькулятор секвенциальных исчислений с возможностью выбора аксиом (T, D, B, 4, 5), а также код для LaTex’a. Есть возможность строить модели и оценивать на них формулы. Кроме того, для DEL приведен редактор для событийных моделей.                
+              </p>
+              <p class="main_article-link">
+                <a href="https://nomuras.github.io/ELVis/" target="_blank">Ссылка</a>
+              </p>
+            </div>
+            <a href="https://nomuras.github.io/ELVis/" target="_blank">
+              <img src="/assets/elvis.png" alt="elvis" class="main_article-img">
+            </a>
+          </div>
+        </article>
+      </li>
+    </ol>
+    
+
+  </div>
+  
+
+</body>
+</html>

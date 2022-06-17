@@ -1,0 +1,133 @@
+:root {
+  --nav_container-height: 10vh;
+  --article-element-width: 45vw;
+  --img-width: 40vw;
+  --accent-color: #f9b300;
+}
+
+body {
+  background-color: #f0f2f5;
+  line-height: 1.5;
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFF;
+  height: var(--nav_container-height);
+  box-shadow: 2px 2px 5px #e4e4e4;
+}
+
+.nav_menu {
+  display: flex;
+  padding: 0 4.5vw 0 0;
+}
+
+.nav_menu-button {
+  padding: 0 1.5vw;
+  list-style: none;
+  color: #6f6f6f;
+  font-size: 0.9rem;
+  height: var(--nav_container-height);
+  line-height: var(--nav_container-height);
+  transition: all 400ms;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  transition: all 400ms;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+.nav_menu-button:hover {
+  color: var(--accent-color);
+  /* border-bottom: solid 2px var(--accent-color); */
+}
+
+.nav_logo-wrapper {
+  background: #FFF;
+  /* height: auto;  */
+  padding: 12px 57px;
+}
+
+.nav_logo {
+  width: 36px;
+  display: block;
+}
+
+.main {
+  /* margin: 25px 12px; */
+  margin: 1.5vw;
+  padding: 10px;
+  background: #FFF;
+}
+
+li {
+  /* list-style: none; */
+  /* list-style-position: inside; */
+  /* list-style-type: lower-greek; */
+  margin-left: 0.5vw;
+}
+
+.main_title {
+  margin: 1vw 0 0 2.5vw;
+}
+
+.main_article-title {
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0.5vh 0 0.5vh 0;
+  transition: all 0.25s;
+}
+
+.main_article-title:hover {
+  color: var(--accent-color);
+  margin: 0;
+}
+
+.main_article-block-text {
+  width: var(--article-element-width);
+  margin: 0 1.25vw 0 0;
+  text-align: justify;
+}
+
+.main_article-p {
+  margin: 0 0 0 0;
+}
+
+.main_article-link {
+  font-weight: 600;
+  margin: 2.5vh 0 0 0;
+}
+
+.main_article-img {
+  width: var(--img-width);
+  /* height: var(--article-element-width); */
+  margin-left: 3vw;
+}
+
+.main_article-block {
+  display: none;
+  flex-direction: row;
+  /* background: #000; */
+}
+
+@media (max-width: 600px) {
+  .main_article-block {
+    display: none;
+    flex-direction: column;
+  } 
+
+  .main_article-block-text, 
+  .main_article-img {
+    margin: 0 2vw 0 1vw;
+    width: 75vw;
+  }
+}
